@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const REST_API_BASE_URL = 'https://employeemanagementsystem-mainakhalder.azurewebsites.net';
+const REST_API_BASE_URL = 'https://employeemanagementsystem-mainak.azurewebsites.net/';
 
 export const listEmployees = () => axios.get(REST_API_BASE_URL);
 
